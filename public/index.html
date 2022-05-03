@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket io</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="chat-conteiner">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="actions"></div>
+        </div>
+        <input type="text" id="username" placeholder="Username">
+        <input type="text" id="message" placeholder="Message">
+        <button id="send">Send</button>
+    </div>
+</body>
+<script src="socket.io/socket.io.js"></script>
+<script src="index.js" defer ></script>
+
+</html>
